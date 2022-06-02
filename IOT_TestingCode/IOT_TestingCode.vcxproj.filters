@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FreeRTOS_MOCK_FFF.cpp" />
+    <ClCompile Include="..\IOT_TestingProduction\tempHumid.c" />
+    <ClCompile Include="..\IOT_TestingProduction\Initializers.c" />
+    <ClCompile Include="..\IOT_TestingProduction\co2.c" />
+    <ClCompile Include="InitializersTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FreeRTOS.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="message_buffer.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="event_groups.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="hih8120.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="lora_driver.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="mh_z19.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="rc_servo.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="semphr.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="serial.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="task.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="timers.h">
+      <Filter>FreeRTOS</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeRTOS_MOCK_FFF.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FreeRTOS">
+      <UniqueIdentifier>{7ef4b55b-e9f4-40e8-9b3d-92a96dc86f30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
